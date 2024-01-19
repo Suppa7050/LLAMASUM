@@ -1,0 +1,12 @@
+[{"stream_name":"stdout","time":5.754194904,"data":"/kaggle/input/dataset1/dataset.json\n"}
+,{"stream_name":"stderr","time":8.823700368,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":8.823790915,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":8.827893548,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":8.856402063,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":9.325652621,"data":"[NbConvertApp] Writing 4970 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":11.290782847,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":11.290829855,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":11.294682294,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":11.330264219,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":12.334099133,"data":"[NbConvertApp] Writing 277619 bytes to __results__.html\n"}
+]

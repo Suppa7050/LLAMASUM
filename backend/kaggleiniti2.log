@@ -1,0 +1,497 @@
+[{"stream_name":"stdout","time":7.301699909,"data":"/kaggle/input/dataset1/data.json\n"}
+,{"stream_name":"stdout","time":35.709404249,"data":"\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":35.709442933,"data":"cudf 23.8.0 requires cupy-cuda11x\u003e=12.0.0, which is not installed.\r\n"}
+,{"stream_name":"stdout","time":35.709449572,"data":"cuml 23.8.0 requires cupy-cuda11x\u003e=12.0.0, which is not installed.\r\n"}
+,{"stream_name":"stdout","time":35.709454645,"data":"dask-cudf 23.8.0 requires cupy-cuda11x\u003e=12.0.0, which is not installed.\r\n"}
+,{"stream_name":"stdout","time":35.7094596,"data":"cudf 23.8.0 requires pandas\u003c1.6.0dev0,\u003e=1.3, but you have pandas 2.0.3 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709464658,"data":"cudf 23.8.0 requires protobuf\u003c5,\u003e=4.21, but you have protobuf 3.20.3 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709469852,"data":"cuml 23.8.0 requires dask==2023.7.1, but you have dask 2023.12.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.70947487,"data":"cuml 23.8.0 requires distributed==2023.7.1, but you have distributed 2023.12.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709479866,"data":"dask-cuda 23.8.0 requires dask==2023.7.1, but you have dask 2023.12.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709484768,"data":"dask-cuda 23.8.0 requires distributed==2023.7.1, but you have distributed 2023.12.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709488779,"data":"dask-cuda 23.8.0 requires pandas\u003c1.6.0dev0,\u003e=1.3, but you have pandas 2.0.3 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.70949235,"data":"dask-cudf 23.8.0 requires dask==2023.7.1, but you have dask 2023.12.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709495888,"data":"dask-cudf 23.8.0 requires distributed==2023.7.1, but you have distributed 2023.12.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.70949941,"data":"dask-cudf 23.8.0 requires pandas\u003c1.6.0dev0,\u003e=1.3, but you have pandas 2.0.3 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.70950309,"data":"google-cloud-bigquery 2.34.4 requires packaging\u003c22.0dev,\u003e=14.3, but you have packaging 23.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709507187,"data":"jupyterlab 4.0.10 requires jupyter-lsp\u003e=2.0.0, but you have jupyter-lsp 1.5.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709510902,"data":"jupyterlab-lsp 5.0.1 requires jupyter-lsp\u003e=2.0.0, but you have jupyter-lsp 1.5.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709514412,"data":"libpysal 4.9.2 requires shapely\u003e=2.0.1, but you have shapely 1.8.5.post1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709517953,"data":"momepy 0.7.0 requires shapely\u003e=2, but you have shapely 1.8.5.post1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709526526,"data":"pymc3 3.11.5 requires numpy\u003c1.22.2,\u003e=1.15.0, but you have numpy 1.24.3 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709531503,"data":"pymc3 3.11.5 requires scipy\u003c1.8.0,\u003e=1.7.3, but you have scipy 1.11.4 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709535045,"data":"raft-dask 23.8.0 requires dask==2023.7.1, but you have dask 2023.12.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709538522,"data":"raft-dask 23.8.0 requires distributed==2023.7.1, but you have distributed 2023.12.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.709550589,"data":"spopt 0.6.0 requires shapely\u003e=2.0.1, but you have shapely 1.8.5.post1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.70955435,"data":"ydata-profiling 4.5.1 requires numpy\u003c1.24,\u003e=1.16.0, but you have numpy 1.24.3 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":37.558500905,"data":"\u001b[0mToken will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.\r\n"}
+,{"stream_name":"stdout","time":37.65979273,"data":"Token is valid (permission: write).\r\n"}
+,{"stream_name":"stdout","time":37.659825773,"data":"Your token has been saved to /root/.cache/huggingface/token\r\n"}
+,{"stream_name":"stdout","time":37.65983255,"data":"Login successful\r\n"}
+,{"stream_name":"stdout","time":39.465771315,"data":"Requirement already satisfied: sentencepiece in /opt/conda/lib/python3.10/site-packages (0.1.99)\r\n"}
+,{"stream_name":"stderr","time":61.870852326,"data":"/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version \u003e=1.16.5 and \u003c1.23.0 is required for this version of SciPy (detected version 1.24.3\n"}
+,{"stream_name":"stderr","time":61.870918867,"data":"  warnings.warn(f\"A NumPy version \u003e={np_minversion} and \u003c{np_maxversion}\"\n"}
+,{"stream_name":"stdout","time":303.928890203,"data":"Collecting textdistance\r\n"}
+,{"stream_name":"stdout","time":303.928938343,"data":"  Obtaining dependency information for textdistance from https://files.pythonhosted.org/packages/05/34/b7fac90b60de670b779bf2e2c4932f9162a7096a0f8600f7b22429978825/textdistance-4.6.1-py3-none-any.whl.metadata\r\n"}
+,{"stream_name":"stdout","time":303.979584496,"data":"  Downloading textdistance-4.6.1-py3-none-any.whl.metadata (18 kB)\r\n"}
+,{"stream_name":"stdout","time":304.081162235,"data":"Downloading textdistance-4.6.1-py3-none-any.whl (31 kB)\r\n"}
+,{"stream_name":"stdout","time":314.068548422,"data":"Installing collected packages: textdistance\r\n"}
+,{"stream_name":"stdout","time":314.271141517,"data":"Successfully installed textdistance-4.6.1\r\n"}
+,{"stream_name":"stderr","time":315.232882244,"data":"/opt/conda/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning\n"}
+,{"stream_name":"stderr","time":315.232926717,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":318.163299464,"data":"/opt/conda/lib/python3.10/site-packages/langchain_core/_api/deprecation.py:117: LangChainDeprecationWarning: The function `run` was deprecated in LangChain 0.1.0 and will be removed in 0.2.0. Use invoke instead.\n"}
+,{"stream_name":"stderr","time":318.163336782,"data":"  warn_deprecated(\n"}
+,{"stream_name":"stdout","time":345.785775093,"data":"\n"}
+,{"stream_name":"stdout","time":345.785823192,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS. LLAMASUMM:. EXTRACURRICULAR ACTIVITIES. ```\n"}
+,{"stream_name":"stdout","time":345.785834408,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS. LLAMASUMM:. EXTRACURRICULAR ACTIVITIES. ```\n"}
+,{"stream_name":"stdout","time":345.785841384,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS. LLAMASUMM:. EXTRACURRICULAR ACTIVITIES. ```\n"}
+,{"stream_name":"stdout","time":345.785847052,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS. LLAMASUMM:. EXTRACURRICULAR ACTIVITIES. ```\n"}
+,{"stream_name":"stdout","time":345.785868929,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS\n"}
+,{"stream_name":"stdout","time":345.785874278,"data":"done\n"}
+,{"stream_name":"stdout","time":372.448798929,"data":"\n"}
+,{"stream_name":"stdout","time":372.448841556,"data":"    Attapur, HyderabadDhanunjaysuppa@gmail.comdata structures and algorithmsMachine LearningFull stack developmentTo secure a challenging and rewarding internship/entry-level position in the field of Information Technology,leveraging my strong technical skills, passion forinnovation, and desire to contribute to the development ofcutting-edge solutionsSeeking an opportunity to applymy knowledge in software development, data analysis,and problem-solving to contribute to the success of anorganization while gaining valuable practical experience ina dynamic IT environment.Zero Shield:Keshav Memorial Institute of Technology, 2021-2025Bachelor of Technology, Information TechnologySri Chaitanya CollegeSanthi Nikethan Talent High SchoolDeveloped a website that utilizes Cicflowmeter to collect andanalyze network logs, employing a trained Random Forest andIsolation Forest model on the CICIDS dataset to predict andclassify ongoing attacks in real timeIf an attack isunrecognized, the system intelligently identifies it as a \"zero-day\" attack, highlighting its potential novelty and enablingproactive threat detection to eliminate possible attacks, protect```\n"}
+,{"stream_name":"stdout","time":372.448856448,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448862494,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448867891,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448873205,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448878746,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448884072,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448889427,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.44889522,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448901611,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448908151,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448914027,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448919428,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448927103,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448932471,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448936987,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448940845,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448944725,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448948797,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448952942,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448956752,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448960641,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448964462,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448968264,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448972067,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448975947,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448980274,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448985414,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448990947,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.448998455,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449003751,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449021608,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449032063,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449039717,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.44904494,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449049959,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.44908067,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449086608,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449091792,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449097013,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449102298,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449107665,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449112737,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449117903,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449123385,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449129314,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449135155,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449140666,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449145794,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449151531,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.44915691,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.44916222,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449167533,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449173084,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449178554,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449184125,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449189688,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449195417,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449201374,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449207008,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.44921258,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449218156,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449223704,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449229231,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449234732,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449240404,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.4492459,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449251568,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449257121,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449262643,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449268008,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449273607,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449279119,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449284785,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449290367,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449296425,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449301983,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449307516,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449313111,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.44931868,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449324271,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.44932983,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449335557,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449348168,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449353955,"data":"    ```\n"}
+,{"stream_name":"stdout","time":372.449359624,"data":"   \n"}
+,{"stream_name":"stdout","time":372.449365221,"data":"done\n"}
+,{"stream_name":"stdout","time":399.124545095,"data":"1. The project 'Unlocking the Power of Llama-2 for Local Multi-Document Summarization' follows a systematic workflow.\n"}
+,{"stream_name":"stdout","time":399.124596594,"data":"    2. The project was developed using Python and FastAPI, while the front end was developed with React, providing a user-friendly interface for efficient and effective cybersecurity monitoring.\n"}
+,{"stream_name":"stdout","time":399.124611266,"data":"    3. The project 'New Spectrum' was developed using MongoDB, Express.js, React, and Node.js, as well as a strong understanding of user interaction and database management.\n"}
+,{"stream_name":"stdout","time":399.124618276,"data":"    4. The project 'Hobbyest' was developed using Mongo, Express, React, Node, and was able to demonstrate proficiency in the MERN stack.\n"}
+,{"stream_name":"stdout","time":399.124625107,"data":"\n"}
+,{"stream_name":"stdout","time":399.124630846,"data":"    Output:\n"}
+,{"stream_name":"stdout","time":399.124639991,"data":"    ```systems, and safeguard against emerging security threatsbackend was built using Python and FastAPI, while the front endwas developed with React, providing a user-friendly interfacefor efficient and effective cybersecurity monitoring.Tech stack:  Python, FastAPI, React, Cicflowmeter, and machine   NPTEL-Python for Data Science -Top 1%NPTEL-The Joy of Computing      -Top 5%NPTEL-Programming In JavaNew Spectrum:Developed \"New Spectrum,\" a dynamic MERN project thatserves as a platform for connecting individuals with ideas andThis innovative application allows users to uploadtheir problem statements and receive answers from others,fostering collaboration and knowledge sharingregistered users can contribute by uploading their ideas toexisting problem statements shared by othersshowcases proficiency in the MERN stack, including MongoDB, Express.js, React, and Node.js, as well as a strongunderstanding of user interaction and database management.Tech Stack: Mongo, Express, React,NodeHOBBIESThe project 'Unlocking the Power of Llama-2 for Local Multi-Document Summarization' follows a systematic workflow.Initially, it ingests multiple PDF documents as input and```\n"}
+,{"stream_name":"stdout","time":399.124651559,"data":"\n"}
+,{"stream_name":"stdout","time":399.124657526,"data":"### 1.1.1.2.2\n"}
+,{"stream_name":"stdout","time":399.124663622,"data":"\n"}
+,{"stream_name":"stdout","time":399.124669336,"data":"#### 1.1.1.2.2.1\n"}
+,{"stream_name":"stdout","time":399.12467563,"data":"\n"}
+,{"stream_name":"stdout","time":399.124681502,"data":"##### 1.1.1.2.2.1.1\n"}
+,{"stream_name":"stdout","time":399.124687857,"data":"\n"}
+,{"stream_name":"stdout","time":399.124693719,"data":"##### 1.1.1.2.2.1.2\n"}
+,{"stream_name":"stdout","time":399.124700381,"data":"\n"}
+,{"stream_name":"stdout","time":399.124706329,"data":"##### 1.1.1.2.2.1.3\n"}
+,{"stream_name":"stdout","time":399.124712577,"data":"\n"}
+,{"stream_name":"stdout","time":399.124718246,"data":"done\n"}
+,{"stream_name":"stdout","time":425.956089217,"data":"\n"}
+,{"stream_name":"stdout","time":425.95612441,"data":"    The text undergoes a series of processing steps to generate a concise and informative summary for each cluster. The steps include utilizing cosine similarity to assess correlations among documents, clustering correlated documents, segmenting large sets into manageable chunks, leveraging the capabilities of the Llama-2 model, and generating summaries for each cluster. The Tech Stack includes LLAMA-2, Colab, Qlora, Streamlit, Flask, and other tools.\n"}
+,{"stream_name":"stdout","time":425.956145625,"data":"\n"}
+,{"stream_name":"stdout","time":425.95615079,"data":"### 2. AI Summarization\n"}
+,{"stream_name":"stdout","time":425.956155392,"data":"\n"}
+,{"stream_name":"stdout","time":425.956160135,"data":"    Context:\n"}
+,{"stream_name":"stdout","time":425.956164857,"data":"    You are tasked with summarizing a large body of text that has been divided into clusters for efficient processing. Each cluster contains related information, and the goal is to generate a concise and informative summary for each cluster.\n"}
+,{"stream_name":"stdout","time":425.956170202,"data":"    Input text:\n"}
+,{"stream_name":"stdout","time":425.956176527,"data":"    ```employs cosine similarity to assess correlations among them.Subsequently, utilizing DBSCAN, the system clusterscorrelated documents, forming coherent groups of relatedTo handle sizable clusters, a recursive text splitteris utilized, effectively segmenting large sets into manageableFinally, leveraging the capabilities of the Llama-2model, each cluster or chunk undergoes a summarizationprocess, generating concise and informative summaries.Tech Stack:  LLAMA-2,Colab, Qlora, Streamlit, Flask, e.t.cAs a founding member and Club Head within the team behind'Curiosity,' I played a pivotal role in establishing and leading avibrant collegiate forumSpearheaded the initiation ofcuriosity-driven discussions on diverse topics, fostering activeparticipation and creating an inclusive space for learning andFacilitated engaging dialogues within a passionatecommunity focused on curiosity, learning, and personalgrowth.Founding Member \u0026 Club Head: \"curiosity?\" Telugu Meme Page Founder \u0026 Content Creator Founded and cultivated a Telugu meme page with 7,000+followers, crafting culturally resonant contentCurated originalmemes fostering engagement and humor within the Telugu-speaking community```\n"}
+,{"stream_name":"stdout","time":425.956187312,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":425.956191939,"data":"    \n"}
+,{"stream_name":"stdout","time":425.956197699,"data":"    The text undergoes a series of processing steps to generate a concise and informative summary for each cluster. The steps include utilizing cosine\n"}
+,{"stream_name":"stdout","time":425.956202787,"data":"done\n"}
+,{"stream_name":"stdout","time":451.107736037,"data":"1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":451.107780759,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":451.107789229,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":451.10779467,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":451.10780024,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":451.107805885,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":451.107810352,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":451.107815638,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":451.107821321,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":451.10782684,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":451.107831582,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":451.107836543,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":451.107841568,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":451.107860425,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":451.107865213,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":451.107869861,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":451.107877128,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":451.107882347,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":451.107886801,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":451.107891673,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":451.107896669,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":451.107901958,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":451.107906775,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":451.107911675,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":451.10791636,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":451.107921568,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":451.107926408,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":451.107931263,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":451.10793613,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":451.107940957,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":451.107945687,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":451.107950719,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":451.107955431,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":451.107960368,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":451.107965121,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":451.1079861,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":451.107991483,"data":"    1. Usefulidiotss is a website that provides a variety\n"}
+,{"stream_name":"stdout","time":451.107996648,"data":"done\n"}
+,{"stream_name":"stdout","time":476.369868002,"data":"1. Python is a popular programming language used for a wide range of applications, including web development, data analysis, and machine learning.\n"}
+,{"stream_name":"stdout","time":476.36989939,"data":"    2. Java Script is a scripting language used for client-side web development.\n"}
+,{"stream_name":"stdout","time":476.369905432,"data":"    3. Git is a version control system used for managing software development projects.\n"}
+,{"stream_name":"stdout","time":476.369910779,"data":"    4. Neural Network is a type of machine learning algorithm that is used for pattern recognition and classification.\n"}
+,{"stream_name":"stdout","time":476.369916417,"data":"    5. English is a widely spoken language in the world.\n"}
+,{"stream_name":"stdout","time":476.369921531,"data":"    6. Telugu is a language spoken in India.\n"}
+,{"stream_name":"stdout","time":476.369926599,"data":"    7. solutions is a word that means \"answers\" or \"solutions\" to a problem or question.\n"}
+,{"stream_name":"stdout","time":476.369940882,"data":"    8. Additionally is a word that means \"also\" or \"furthermore.\"\n"}
+,{"stream_name":"stdout","time":476.369947221,"data":"    9. The project is a word that refers to a specific software development project.\n"}
+,{"stream_name":"stdout","time":476.369952638,"data":"    10. Reading books is a phrase that means \"reading books.\"\n"}
+,{"stream_name":"stdout","time":476.36995791,"data":"    11. Gaming is a word that refers to playing video games or other types of electronic games.\n"}
+,{"stream_name":"stdout","time":476.369963088,"data":"    12. information is a word that means \"data\" or \"facts.\"\n"}
+,{"stream_name":"stdout","time":476.369968389,"data":"    13. chunks is a word that means \"groups\" or \"sections.\"\n"}
+,{"stream_name":"stdout","time":476.36997369,"data":"    14. sharing is a word that means \"sharing\" or \"giving to others.\"\n"}
+,{"stream_name":"stdout","time":476.369979023,"data":"    Output summary:\n"}
+,{"stream_name":"stdout","time":476.369984041,"data":"    ```Python. Java Script. Git. Neural Network. English. Telugu. solutions. Additionally,. The project. Reading books. Gaming. information. chunks. sharing. ```\n"}
+,{"stream_name":"stdout","time":476.369989572,"data":"\n"}
+,{"stream_name":"stdout","time":476.369994436,"data":"### 2. 5. 10. 15.\n"}
+,{"stream_name":"stdout","time":476.369999337,"data":"\n"}
+,{"stream_name":"stdout","time":476.370003577,"data":"### 3. 6. 11. 16.\n"}
+,{"stream_name":"stdout","time":476.370012453,"data":"\n"}
+,{"stream_name":"stdout","time":476.370017288,"data":"### 4. 7. 12. 17.\n"}
+,{"stream_name":"stdout","time":476.370022247,"data":"\n"}
+,{"stream_name":"stdout","time":476.370027083,"data":"### 5. 8. 13. 18.\n"}
+,{"stream_name":"stdout","time":476.370032025,"data":"\n"}
+,{"stream_name":"stdout","time":476.370036804,"data":"### 6. 9. 14. 19.\n"}
+,{"stream_name":"stdout","time":476.370041764,"data":"\n"}
+,{"stream_name":"stdout","time":476.370046513,"data":"### 7. 10. 15. 20.\n"}
+,{"stream_name":"stdout","time":476.37006196,"data":"\n"}
+,{"stream_name":"stdout","time":476.370289302,"data":"### 8. 11. 16. 21.\n"}
+,{"stream_name":"stdout","time":476.370295961,"data":"\n"}
+,{"stream_name":"stdout","time":476.370300807,"data":"### 9. 12. 17. 22.\n"}
+,{"stream_name":"stdout","time":476.370305943,"data":"\n"}
+,{"stream_name":"stdout","time":476.370310747,"data":"### 10. 13. 18. 23.\n"}
+,{"stream_name":"stdout","time":476.370315838,"data":"\n"}
+,{"stream_name":"stdout","time":476.370320801,"data":"### 11. 14. 19. 24.\n"}
+,{"stream_name":"stdout","time":476.370325823,"data":"\n"}
+,{"stream_name":"stdout","time":476.370330619,"data":"##\n"}
+,{"stream_name":"stdout","time":476.370335546,"data":"done\n"}
+,{"stream_name":"stdout","time":501.437329954,"data":"97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.437372599,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.43738166,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.437386959,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.437392534,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.437415081,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.437420057,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.437424822,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.437431327,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.437435873,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.437440493,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.437445819,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.437451479,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.437456484,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.43746222,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.437466886,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.437473948,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.437479597,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.437484164,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.437488717,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python\n"}
+,{"stream_name":"stdout","time":501.437494341,"data":"done\n"}
+,{"stream_name":"stdout","time":501.466419762,"data":"\n"}
+,{"stream_name":"stdout","time":501.466449413,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS. LLAMASUMM:. EXTRACURRICULAR ACTIVITIES. ```\n"}
+,{"stream_name":"stdout","time":501.466457122,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS. LLAMASUMM:. EXTRACURRICULAR ACTIVITIES. ```\n"}
+,{"stream_name":"stdout","time":501.466462653,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS. LLAMASUMM:. EXTRACURRICULAR ACTIVITIES. ```\n"}
+,{"stream_name":"stdout","time":501.46646781,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS. LLAMASUMM:. EXTRACURRICULAR ACTIVITIES. ```\n"}
+,{"stream_name":"stdout","time":501.466484542,"data":"    ```+91 8074707878. SKILLS.  Java. C++. LANGUAGES. HindiDHANUNJAYA. SUPPA. STUDENT. OBJECTIVE. EDUCATIONJ. PROJECTS. The. /dhanunjaya-suppa/CERTIFICATIONS\n"}
+,{"stream_name":"stdout","time":501.466488338,"data":"\n"}
+,{"stream_name":"stdout","time":501.466495003,"data":"    Attapur, HyderabadDhanunjaysuppa@gmail.comdata structures and algorithmsMachine LearningFull stack developmentTo secure a challenging and rewarding internship/entry-level position in the field of Information Technology,leveraging my strong technical skills, passion forinnovation, and desire to contribute to the development ofcutting-edge solutionsSeeking an opportunity to applymy knowledge in software development, data analysis,and problem-solving to contribute to the success of anorganization while gaining valuable practical experience ina dynamic IT environment.Zero Shield:Keshav Memorial Institute of Technology, 2021-2025Bachelor of Technology, Information TechnologySri Chaitanya CollegeSanthi Nikethan Talent High SchoolDeveloped a website that utilizes Cicflowmeter to collect andanalyze network logs, employing a trained Random Forest andIsolation Forest model on the CICIDS dataset to predict andclassify ongoing attacks in real timeIf an attack isunrecognized, the system intelligently identifies it as a \"zero-day\" attack, highlighting its potential novelty and enablingproactive threat detection to eliminate possible attacks, protect```\n"}
+,{"stream_name":"stdout","time":501.466504342,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466507618,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466510903,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466514173,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466518381,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466524575,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466529432,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466542228,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466547438,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466552033,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466556577,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466561108,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466565622,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466570139,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466574639,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466579106,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.46658358,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466589824,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466594163,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.46659746,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466600706,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.46660393,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466607149,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466611176,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.46661731,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.46662237,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466627868,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466633202,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466638182,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466642665,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.46664737,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466652247,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466661782,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466666384,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466670969,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466675557,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466680018,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.46668457,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466690708,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466695437,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466698687,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466702805,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466709076,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466713968,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466719486,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.46672469,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466729702,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466734276,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466738727,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466743242,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466747752,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466752229,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466756686,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466761227,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.46676567,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466770106,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466774585,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466779086,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466785192,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466789002,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466792686,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466797268,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466803452,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466808398,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466813942,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466819068,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466823642,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466828095,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466832594,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466837127,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466841615,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466846088,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466850598,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466855051,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466859579,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466864045,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466868531,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466874707,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466878639,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466881873,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466886113,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466892362,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466897831,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466903284,"data":"    ```\n"}
+,{"stream_name":"stdout","time":501.466908474,"data":"   \n"}
+,{"stream_name":"stdout","time":501.466917614,"data":"1. The project 'Unlocking the Power of Llama-2 for Local Multi-Document Summarization' follows a systematic workflow.\n"}
+,{"stream_name":"stdout","time":501.466922648,"data":"    2. The project was developed using Python and FastAPI, while the front end was developed with React, providing a user-friendly interface for efficient and effective cybersecurity monitoring.\n"}
+,{"stream_name":"stdout","time":501.466927783,"data":"    3. The project 'New Spectrum' was developed using MongoDB, Express.js, React, and Node.js, as well as a strong understanding of user interaction and database management.\n"}
+,{"stream_name":"stdout","time":501.466932751,"data":"    4. The project 'Hobbyest' was developed using Mongo, Express, React, Node, and was able to demonstrate proficiency in the MERN stack.\n"}
+,{"stream_name":"stdout","time":501.466937664,"data":"\n"}
+,{"stream_name":"stdout","time":501.466942225,"data":"    Output:\n"}
+,{"stream_name":"stdout","time":501.466947578,"data":"    ```systems, and safeguard against emerging security threatsbackend was built using Python and FastAPI, while the front endwas developed with React, providing a user-friendly interfacefor efficient and effective cybersecurity monitoring.Tech stack:  Python, FastAPI, React, Cicflowmeter, and machine   NPTEL-Python for Data Science -Top 1%NPTEL-The Joy of Computing      -Top 5%NPTEL-Programming In JavaNew Spectrum:Developed \"New Spectrum,\" a dynamic MERN project thatserves as a platform for connecting individuals with ideas andThis innovative application allows users to uploadtheir problem statements and receive answers from others,fostering collaboration and knowledge sharingregistered users can contribute by uploading their ideas toexisting problem statements shared by othersshowcases proficiency in the MERN stack, including MongoDB, Express.js, React, and Node.js, as well as a strongunderstanding of user interaction and database management.Tech Stack: Mongo, Express, React,NodeHOBBIESThe project 'Unlocking the Power of Llama-2 for Local Multi-Document Summarization' follows a systematic workflow.Initially, it ingests multiple PDF documents as input and```\n"}
+,{"stream_name":"stdout","time":501.466955845,"data":"\n"}
+,{"stream_name":"stdout","time":501.466960307,"data":"### 1.1.1.2.2\n"}
+,{"stream_name":"stdout","time":501.466966638,"data":"\n"}
+,{"stream_name":"stdout","time":501.46697055,"data":"#### 1.1.1.2.2.1\n"}
+,{"stream_name":"stdout","time":501.46697398,"data":"\n"}
+,{"stream_name":"stdout","time":501.466978365,"data":"##### 1.1.1.2.2.1.1\n"}
+,{"stream_name":"stdout","time":501.466997743,"data":"\n"}
+,{"stream_name":"stdout","time":501.467003284,"data":"##### 1.1.1.2.2.1.2\n"}
+,{"stream_name":"stdout","time":501.467008542,"data":"\n"}
+,{"stream_name":"stdout","time":501.467012962,"data":"##### 1.1.1.2.2.1.3\n"}
+,{"stream_name":"stdout","time":501.467017495,"data":"\n"}
+,{"stream_name":"stdout","time":501.46702192,"data":"\n"}
+,{"stream_name":"stdout","time":501.467026492,"data":"    The text undergoes a series of processing steps to generate a concise and informative summary for each cluster. The steps include utilizing cosine similarity to assess correlations among documents, clustering correlated documents, segmenting large sets into manageable chunks, leveraging the capabilities of the Llama-2 model, and generating summaries for each cluster. The Tech Stack includes LLAMA-2, Colab, Qlora, Streamlit, Flask, and other tools.\n"}
+,{"stream_name":"stdout","time":501.467032367,"data":"\n"}
+,{"stream_name":"stdout","time":501.467036825,"data":"### 2. AI Summarization\n"}
+,{"stream_name":"stdout","time":501.467041522,"data":"\n"}
+,{"stream_name":"stdout","time":501.467045955,"data":"    Context:\n"}
+,{"stream_name":"stdout","time":501.467066854,"data":"    You are tasked with summarizing a large body of text that has been divided into clusters for efficient processing. Each cluster contains related information, and the goal is to generate a concise and informative summary for each cluster.\n"}
+,{"stream_name":"stdout","time":501.467074008,"data":"    Input text:\n"}
+,{"stream_name":"stdout","time":501.467079392,"data":"    ```employs cosine similarity to assess correlations among them.Subsequently, utilizing DBSCAN, the system clusterscorrelated documents, forming coherent groups of relatedTo handle sizable clusters, a recursive text splitteris utilized, effectively segmenting large sets into manageableFinally, leveraging the capabilities of the Llama-2model, each cluster or chunk undergoes a summarizationprocess, generating concise and informative summaries.Tech Stack:  LLAMA-2,Colab, Qlora, Streamlit, Flask, e.t.cAs a founding member and Club Head within the team behind'Curiosity,' I played a pivotal role in establishing and leading avibrant collegiate forumSpearheaded the initiation ofcuriosity-driven discussions on diverse topics, fostering activeparticipation and creating an inclusive space for learning andFacilitated engaging dialogues within a passionatecommunity focused on curiosity, learning, and personalgrowth.Founding Member \u0026 Club Head: \"curiosity?\" Telugu Meme Page Founder \u0026 Content Creator Founded and cultivated a Telugu meme page with 7,000+followers, crafting culturally resonant contentCurated originalmemes fostering engagement and humor within the Telugu-speaking community```\n"}
+,{"stream_name":"stdout","time":501.467088067,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467092564,"data":"    \n"}
+,{"stream_name":"stdout","time":501.467097224,"data":"    The text undergoes a series of processing steps to generate a concise and informative summary for each cluster. The steps include utilizing cosine\n"}
+,{"stream_name":"stdout","time":501.4671023,"data":"1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":501.467107073,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":501.467111765,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":501.467116328,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":501.467120992,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":501.467127328,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467131233,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":501.467135279,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":501.467141769,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":501.467146772,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":501.467152143,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":501.467157867,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467163018,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":501.46716775,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":501.467172443,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":501.467177145,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":501.467181848,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":501.467190835,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467195857,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":501.467200667,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":501.467205296,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":501.467209958,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":501.467214826,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":501.467221058,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467224465,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":501.467229268,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":501.467235993,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":501.467240978,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":501.467246551,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":501.467251811,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467256403,"data":"    1. Usefulidiotss is a website that provides a variety of information and services.\n"}
+,{"stream_name":"stdout","time":501.467261115,"data":"    2. It is easy to use and provides a variety of features.\n"}
+,{"stream_name":"stdout","time":501.467265785,"data":"    3. It is a reliable source of information.\n"}
+,{"stream_name":"stdout","time":501.46727043,"data":"    4. It is a great resource for those looking for information.\n"}
+,{"stream_name":"stdout","time":501.467275137,"data":"    ```View the page at Usefulidiotss```\n"}
+,{"stream_name":"stdout","time":501.467279805,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467284382,"data":"    1. Usefulidiotss is a website that provides a variety\n"}
+,{"stream_name":"stdout","time":501.467289101,"data":"1. Python is a popular programming language used for a wide range of applications, including web development, data analysis, and machine learning.\n"}
+,{"stream_name":"stdout","time":501.467294021,"data":"    2. Java Script is a scripting language used for client-side web development.\n"}
+,{"stream_name":"stdout","time":501.467298829,"data":"    3. Git is a version control system used for managing software development projects.\n"}
+,{"stream_name":"stdout","time":501.467303659,"data":"    4. Neural Network is a type of machine learning algorithm that is used for pattern recognition and classification.\n"}
+,{"stream_name":"stdout","time":501.467310239,"data":"    5. English is a widely spoken language in the world.\n"}
+,{"stream_name":"stdout","time":501.467314062,"data":"    6. Telugu is a language spoken in India.\n"}
+,{"stream_name":"stdout","time":501.467317934,"data":"    7. solutions is a word that means \"answers\" or \"solutions\" to a problem or question.\n"}
+,{"stream_name":"stdout","time":501.467327487,"data":"    8. Additionally is a word that means \"also\" or \"furthermore.\"\n"}
+,{"stream_name":"stdout","time":501.467332647,"data":"    9. The project is a word that refers to a specific software development project.\n"}
+,{"stream_name":"stdout","time":501.467338431,"data":"    10. Reading books is a phrase that means \"reading books.\"\n"}
+,{"stream_name":"stdout","time":501.467343868,"data":"    11. Gaming is a word that refers to playing video games or other types of electronic games.\n"}
+,{"stream_name":"stdout","time":501.467353254,"data":"    12. information is a word that means \"data\" or \"facts.\"\n"}
+,{"stream_name":"stdout","time":501.467358224,"data":"    13. chunks is a word that means \"groups\" or \"sections.\"\n"}
+,{"stream_name":"stdout","time":501.467363051,"data":"    14. sharing is a word that means \"sharing\" or \"giving to others.\"\n"}
+,{"stream_name":"stdout","time":501.467367928,"data":"    Output summary:\n"}
+,{"stream_name":"stdout","time":501.467372593,"data":"    ```Python. Java Script. Git. Neural Network. English. Telugu. solutions. Additionally,. The project. Reading books. Gaming. information. chunks. sharing. ```\n"}
+,{"stream_name":"stdout","time":501.467377617,"data":"\n"}
+,{"stream_name":"stdout","time":501.467382074,"data":"### 2. 5. 10. 15.\n"}
+,{"stream_name":"stdout","time":501.467386642,"data":"\n"}
+,{"stream_name":"stdout","time":501.467391095,"data":"### 3. 6. 11. 16.\n"}
+,{"stream_name":"stdout","time":501.467395652,"data":"\n"}
+,{"stream_name":"stdout","time":501.467402025,"data":"### 4. 7. 12. 17.\n"}
+,{"stream_name":"stdout","time":501.467405391,"data":"\n"}
+,{"stream_name":"stdout","time":501.467409062,"data":"### 5. 8. 13. 18.\n"}
+,{"stream_name":"stdout","time":501.467415319,"data":"\n"}
+,{"stream_name":"stdout","time":501.467420011,"data":"### 6. 9. 14. 19.\n"}
+,{"stream_name":"stdout","time":501.467425397,"data":"\n"}
+,{"stream_name":"stdout","time":501.467430816,"data":"### 7. 10. 15. 20.\n"}
+,{"stream_name":"stdout","time":501.467435968,"data":"\n"}
+,{"stream_name":"stdout","time":501.467440452,"data":"### 8. 11. 16. 21.\n"}
+,{"stream_name":"stdout","time":501.467445082,"data":"\n"}
+,{"stream_name":"stdout","time":501.467449931,"data":"### 9. 12. 17. 22.\n"}
+,{"stream_name":"stdout","time":501.467454486,"data":"\n"}
+,{"stream_name":"stdout","time":501.467458932,"data":"### 10. 13. 18. 23.\n"}
+,{"stream_name":"stdout","time":501.467463503,"data":"\n"}
+,{"stream_name":"stdout","time":501.467467906,"data":"### 11. 14. 19. 24.\n"}
+,{"stream_name":"stdout","time":501.467472474,"data":"\n"}
+,{"stream_name":"stdout","time":501.467476922,"data":"##\n"}
+,{"stream_name":"stdout","time":501.467481457,"data":"97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.467486155,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.467493336,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467496689,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.467500587,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.467507824,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467525654,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.467532904,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.467548681,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467553979,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.46755929,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.467564862,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467569627,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.46757442,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.467579903,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.46758453,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.467590109,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python                                     . ```\n"}
+,{"stream_name":"stdout","time":501.467596137,"data":"    SUMMARY:\n"}
+,{"stream_name":"stdout","time":501.467604475,"data":"    97.4% SSC 9.3 GPA learning using Python\n"}
+,{"stream_name":"stdout","time":501.467611549,"data":"    ```Intermediate                                                                 97.4%. SSC                                                                              9.3 GPA.                        learninghttps://www.linkedin.com/in.         using Python\n"}
+,{"stream_name":"stderr","time":506.947878469,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":506.947923764,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":506.953616829,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":506.983159362,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":507.459666596,"data":"[NbConvertApp] Writing 184856 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":509.049101603,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":509.049147606,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":509.051653058,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":509.08386508,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":510.03895599,"data":"[NbConvertApp] Writing 440206 bytes to __results__.html\n"}
+]
