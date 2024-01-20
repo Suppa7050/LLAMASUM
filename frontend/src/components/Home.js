@@ -182,7 +182,7 @@ const Home = ({settext}) => {
      }
      console.log("befor");
      try {
-      let response = await fetch("http://127.0.0.1:5000/summary", { 
+      let response = await fetch("https://llamasum-backend.onrender.com/summary", { 
         method: "POST",
         body: bodyContent,
         headers: headersList
