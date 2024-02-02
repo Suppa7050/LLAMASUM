@@ -56,7 +56,7 @@ def index():
         dictionary={
             "data":pdf_text
         }
-        with open("data\\data.json", "w") as outfile:
+        with open("data/data.json", "w") as outfile:
             json.dump(dictionary, outfile)
         subprocess.run(["kaggle", "datasets", "version", "-p", "data", "-m", "Updated data"])
         result=subprocess.run(["kaggle", "kernels", "push", "-p", "notebook"])
